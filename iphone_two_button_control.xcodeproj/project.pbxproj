@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72657E71A29DE5C00A24B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F72657E61A29DE5C00A24B25 /* main.m */; };
+		F72657EA1A29DE5C00A24B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72657E91A29DE5C00A24B25 /* AppDelegate.m */; };
+		F72657ED1A29DE5C00A24B25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72657EC1A29DE5C00A24B25 /* ViewController.m */; };
+		F72657F01A29DE5C00A24B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72657EE1A29DE5C00A24B25 /* Main.storyboard */; };
+		F72657F21A29DE5D00A24B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72657F11A29DE5C00A24B25 /* Images.xcassets */; };
+		F72657F51A29DE5D00A24B25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72657F31A29DE5D00A24B25 /* LaunchScreen.xib */; };
+		F72658011A29DE5D00A24B25 /* iphone_two_button_controlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72658001A29DE5D00A24B25 /* iphone_two_button_controlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72657FB1A29DE5D00A24B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72657D91A29DE5C00A24B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72657E01A29DE5C00A24B25;
+			remoteInfo = iphone_two_button_control;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F72657E11A29DE5C00A24B25 /* iphone_two_button_control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphone_two_button_control.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72657E51A29DE5C00A24B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72657E61A29DE5C00A24B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F72657E81A29DE5C00A24B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F72657E91A29DE5C00A24B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F72657EB1A29DE5C00A24B25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F72657EC1A29DE5C00A24B25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F72657EF1A29DE5C00A24B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72657F11A29DE5C00A24B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F72657F41A29DE5D00A24B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F72657FA1A29DE5D00A24B25 /* iphone_two_button_controlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iphone_two_button_controlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72657FF1A29DE5D00A24B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72658001A29DE5D00A24B25 /* iphone_two_button_controlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphone_two_button_controlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72657DE1A29DE5C00A24B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72657F71A29DE5D00A24B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72657D81A29DE5C00A24B25 = {
+			isa = PBXGroup;
+			children = (
+				F72657E31A29DE5C00A24B25 /* iphone_two_button_control */,
+				F72657FD1A29DE5D00A24B25 /* iphone_two_button_controlTests */,
+				F72657E21A29DE5C00A24B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72657E21A29DE5C00A24B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72657E11A29DE5C00A24B25 /* iphone_two_button_control.app */,
+				F72657FA1A29DE5D00A24B25 /* iphone_two_button_controlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72657E31A29DE5C00A24B25 /* iphone_two_button_control */ = {
+			isa = PBXGroup;
+			children = (
+				F72657E81A29DE5C00A24B25 /* AppDelegate.h */,
+				F72657E91A29DE5C00A24B25 /* AppDelegate.m */,
+				F72657EB1A29DE5C00A24B25 /* ViewController.h */,
+				F72657EC1A29DE5C00A24B25 /* ViewController.m */,
+				F72657EE1A29DE5C00A24B25 /* Main.storyboard */,
+				F72657F11A29DE5C00A24B25 /* Images.xcassets */,
+				F72657F31A29DE5D00A24B25 /* LaunchScreen.xib */,
+				F72657E41A29DE5C00A24B25 /* Supporting Files */,
+			);
+			path = iphone_two_button_control;
+			sourceTree = "<group>";
+		};
+		F72657E41A29DE5C00A24B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72657E51A29DE5C00A24B25 /* Info.plist */,
+				F72657E61A29DE5C00A24B25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F72657FD1A29DE5D00A24B25 /* iphone_two_button_controlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72658001A29DE5D00A24B25 /* iphone_two_button_controlTests.m */,
+				F72657FE1A29DE5D00A24B25 /* Supporting Files */,
+			);
+			path = iphone_two_button_controlTests;
+			sourceTree = "<group>";
+		};
+		F72657FE1A29DE5D00A24B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72657FF1A29DE5D00A24B25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72657E01A29DE5C00A24B25 /* iphone_two_button_control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72658041A29DE5D00A24B25 /* Build configuration list for PBXNativeTarget "iphone_two_button_control" */;
+			buildPhases = (
+				F72657DD1A29DE5C00A24B25 /* Sources */,
+				F72657DE1A29DE5C00A24B25 /* Frameworks */,
+				F72657DF1A29DE5C00A24B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphone_two_button_control;
+			productName = iphone_two_button_control;
+			productReference = F72657E11A29DE5C00A24B25 /* iphone_two_button_control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F72657F91A29DE5D00A24B25 /* iphone_two_button_controlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72658071A29DE5D00A24B25 /* Build configuration list for PBXNativeTarget "iphone_two_button_controlTests" */;
+			buildPhases = (
+				F72657F61A29DE5D00A24B25 /* Sources */,
+				F72657F71A29DE5D00A24B25 /* Frameworks */,
+				F72657F81A29DE5D00A24B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72657FC1A29DE5D00A24B25 /* PBXTargetDependency */,
+			);
+			name = iphone_two_button_controlTests;
+			productName = iphone_two_button_controlTests;
+			productReference = F72657FA1A29DE5D00A24B25 /* iphone_two_button_controlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72657D91A29DE5C00A24B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Yahoo;
+				TargetAttributes = {
+					F72657E01A29DE5C00A24B25 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F72657F91A29DE5D00A24B25 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F72657E01A29DE5C00A24B25;
+					};
+				};
+			};
+			buildConfigurationList = F72657DC1A29DE5C00A24B25 /* Build configuration list for PBXProject "iphone_two_button_control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72657D81A29DE5C00A24B25;
+			productRefGroup = F72657E21A29DE5C00A24B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72657E01A29DE5C00A24B25 /* iphone_two_button_control */,
+				F72657F91A29DE5D00A24B25 /* iphone_two_button_controlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72657DF1A29DE5C00A24B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72657F01A29DE5C00A24B25 /* Main.storyboard in Resources */,
+				F72657F51A29DE5D00A24B25 /* LaunchScreen.xib in Resources */,
+				F72657F21A29DE5D00A24B25 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72657F81A29DE5D00A24B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72657DD1A29DE5C00A24B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72657ED1A29DE5C00A24B25 /* ViewController.m in Sources */,
+				F72657EA1A29DE5C00A24B25 /* AppDelegate.m in Sources */,
+				F72657E71A29DE5C00A24B25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72657F61A29DE5D00A24B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72658011A29DE5D00A24B25 /* iphone_two_button_controlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72657FC1A29DE5D00A24B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72657E01A29DE5C00A24B25 /* iphone_two_button_control */;
+			targetProxy = F72657FB1A29DE5D00A24B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F72657EE1A29DE5C00A24B25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72657EF1A29DE5C00A24B25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72657F31A29DE5D00A24B25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72657F41A29DE5D00A24B25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72658021A29DE5D00A24B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F72658031A29DE5D00A24B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72658051A29DE5D00A24B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iphone_two_button_control/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F72658061A29DE5D00A24B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iphone_two_button_control/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F72658081A29DE5D00A24B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iphone_two_button_controlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iphone_two_button_control.app/iphone_two_button_control";
+			};
+			name = Debug;
+		};
+		F72658091A29DE5D00A24B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iphone_two_button_controlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iphone_two_button_control.app/iphone_two_button_control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72657DC1A29DE5C00A24B25 /* Build configuration list for PBXProject "iphone_two_button_control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72658021A29DE5D00A24B25 /* Debug */,
+				F72658031A29DE5D00A24B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72658041A29DE5D00A24B25 /* Build configuration list for PBXNativeTarget "iphone_two_button_control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72658051A29DE5D00A24B25 /* Debug */,
+				F72658061A29DE5D00A24B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F72658071A29DE5D00A24B25 /* Build configuration list for PBXNativeTarget "iphone_two_button_controlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72658081A29DE5D00A24B25 /* Debug */,
+				F72658091A29DE5D00A24B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72657D91A29DE5C00A24B25 /* Project object */;
+}
